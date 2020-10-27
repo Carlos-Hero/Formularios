@@ -1,0 +1,79 @@
+body{
+    background-color: #fddb3a;
+}
+
+header{
+    background: #16171a;
+    width: 1500px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: #b39918;
+}
+
+img{
+    width: 250px;  
+}
+
+.Formulario{
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    border: solid 2px;
+    border-radius: 50px;
+    border-color: #b39918;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Modern Sans Leve';
+}    
+
+@font-face {
+    font-family: 'Modern Sans Leve';
+    src: url(ModernSans-Light.otf);
+}
+p{
+    color: rgb(12, 12, 5);
+    text-align: center;
+    font-size: 25px;
+}
+
+table{
+    font-size: 45px;
+    height: 25px;
+}
+
+input{
+    height: 40px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    border: solid 2px #b39918;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration-color: #b39918;
+}
+
+.fixarRodape {
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    background-color:  #b39918;
+    margin: 0% auto;
+    padding-bottom: 30px;
+}
+
+td{
+    color: black;
+    border: solid 2px black;
+    background-color:#b39918 ;
+    font-family: 'Modern Sans Leve';
+    display: flex;
+    flex-grow: 1;
+}
